@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+<div class="login" style="width: 800px">
+    <center><img src="gpm.png"></center>
+	<h1 align="center">FEEDBACK FORM</h1> 
+    
+<form method="post" action="feedback.php">
+<hr><br><br>
+
+<fieldset>    
+<legend>     
+PERSONAL INFORMATION  
+</legend>    
+<br>
+
+<label>     
+Name - <input type="text" name="Name"  size="30" maxlength="100" class="form1">    
+</label>  <br><br>
+
+<label>     
+Email - <input type="email" name="Email" size="30" maxlength="100">     
+</label>  <br><br>
+
+<label>
+Phone - <input type="phone" name="Phone" size="30" maxlength="100">
+</label> <br><br>
+
+<label>   
+Enrollment Number - <input type="text" name="Enrollment" size="30" maxlength="100">  
+</label>  <br><br>
+
+    
+
+</fieldset> 
+<br>   
+<fieldset>    
+<legend>YOUR REVIEW</legend>    
+<p>    
+<label for="hear-about">      
+How did you hear about us ?     
+</label>     
+<select name="Q1" id="hear-about">      
+<option value="Google">Google</option>      
+<option value="Friend">Friend</option>      
+<option value="Advert">Advert</option>      
+<option value="Other">Other</option>
+</select>
+</p>   
+     
+<p>     
+<label for="teaching method">      
+Are you satisfied with the teaching staff and their teaching methods ?     
+</label>     
+<select name="Q2" id="teaching method">      
+<option value="Extremely Satisfied">Extremely Satisfied</option>      
+<option value="Satisfied">Satisfied</option>      
+<option value="Neutral">Neutral</option>      
+<option value="Dissatisfied">Dissatisfied</option>
+</select>
+</p>
+  
+<p>     
+<label for="faculty member">      
+How supportive were the faculty members ?     
+</label>      
+<select name="Q3" id="faculty member">      
+<option value="Extremely Supportive">Extremely Supportive</option>      
+<option value="Very supportive">Very supportive</option>      
+<option value="Supportive">Supportive</option>      
+<option value="Neutral">Neutral</option>
+<option value="Unsupportive">Unsupportive</option>
+</select>
+</p> 
+   
+<label>
+How do you rate your overall experience ?   
+<br>  
+<br>     
+<label for="Bad" class="radio-inline">  <input type="radio" name="Q4" value="Bad" id="Bad"/>      
+Bad    
+</label>     
+<label for="Good" class="radio-inline">  <input type="radio" name="Q4" value="Good" id="Good"/>      
+Good    
+</label>     
+<label for="Average" class="radio-inline"><input type="radio" name="Q4" value="Average" id="Average"/>      
+Average   
+</label>
+<br>
+<br>
+Rate the College Campus ?     
+<br>
+<br>     
+<label for="label1" class="radio-inline"><input type="radio" name="Q5" value="1" id="label1"/>      
+1    
+</label>     
+<label for="label2" class="radio-inline"><input type="radio" name="Q5" value="2" id="label2"/>      
+2     
+</label>     
+<label for="label3" class="radio-inline"><input type="radio" name="Q5" value="3" id="label3"/>  
+3   
+</label>
+<label for="label4" class="radio-inline"><input type="radio" name="Q5" value="4" id="label4"/>  
+4 
+</label>    
+<label for="label5" class="radio-inline"><input type="radio" name="Q5" value="5" id="label5"/>  
+5
+</label> 
+</p> 
+Will you recommend our college to Others ?     
+<br>
+<br>
+<label for="O1" class="radio-inline"><input id="O1" type="radio" name="Q6" value="Yes" />      
+Yes   
+</label>     
+<label for="O2" class="radio-inline"><input id="O2" type="radio" name="Q6" value="No" />      
+No   
+</label>   
+<p>     
+<label for="comments">      
+Please provide us additional feedback to improve our college.   
+</label>     
+<br>     
+<br>
+<textarea rows="4" cols="90" id="comments" name="Q7">     
+</textarea>   
+<p>   
+<label>  
+<input type="checkbox" name="Signup" value="Yes" checked/>        
+Sign me up for email updates    
+</label>    
+<br>    
+<br>
+ <input type="submit" name="submit" value="Submit"/>
+ </label>   
+ 
+   </form>
+  </div>
+ </body>
+</html>
+

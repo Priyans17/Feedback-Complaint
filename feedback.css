@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+body {   
+	height: 100%;
+	background-color: rgb(103, 159, 242);
+
+}
+.login,table {
+	background-color: rgba(44, 176, 74, 0.314);
+	margin: 50px auto;
+	font-family: arial;
+	color: rgb(20, 7, 7) ;
+	border-radius: 10px;
+	border: 2px solid rgb(23, 18, 28);
+	padding: 12px 40px 25px;
+	margin-top: 70px;
+}
+
+input[type=text],input[type=email],	
+input[type=phone],select {
+	background-color: rgb(254, 254, 254);
+	width: 95%;
+	height: auto;
+	padding: 12px;
+	margin-top: 8px;
+	border: 1	px solid black;
+	border-radius: 10px;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family: arial;
+}
+
+input[type=submit],a {
+	width: 50%;
+	background-color: rgb(9, 9, 57);
+	color: rgb(255, 255, 255);
+	padding: 12px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}	
+table td{
+	color: rgb(10, 2, 10);
+	width: 300px;
+	padding: 0 0 0 57px;
+}
+legend{
+	font-family: 'Mukta', sans-serif;
+	font-size: large;
+	margin: auto;
+}
+label{
+	font-family: 'Signika Negative', sans-serif;
+	font-size:large;
+}
+fieldset{
+	border-color: black;
+}
+hr{
+	color: black;
+}

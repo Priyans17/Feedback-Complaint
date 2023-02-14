@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Complaint</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">   <link rel="stylesheet" type="text/css" href="complaint.css">
+  </head>
+<body>
+<div class="testbox" style="width: 800px">
+    <center><img src="gpm.png"></center>
+    <h1 align="center">COMPLAINT FORM</h1>
+ 
+<form method="post" action="complaint.php">
+<hr><br><br>
+
+<fieldset>   
+<legend>
+PERSONAL INFORMATION
+</legend>
+<br>
+
+<label>
+Name - <input type="text" name="name" size="30" maxlength="100">
+</label> <br><br>
+
+<label>
+Email - <input type="email" name="email" size="30" maxlength="100">
+</label> <br><br>
+
+<label>
+Phone - <input type="phone" name="phone" size="30" maxlength="100">
+</label> <br><br>
+
+<label>
+Enrollment number - <input type="text" name="enrollment" size="30" maxlength="100">
+</label> <br><br>
+
+</fieldset>
+<br>
+<fieldset>
+<legend>INFORMATION ABOUT YOUR COMPLAINT</legend>
+<p>
+<label>
+First date on which the events or issues occurred -   
+<input name="date" type="date" name="date" required/>
+</label>
+</p>
+
+<p>
+<label>
+Name of the person against which the complaint is filled -
+<input type="text" name="person" required/>
+</label>
+</p>
+
+<p>
+<label>
+Please describe your complaint in detail -
+<br>
+<br>
+</label>
+<textarea name="detail" rows="5" cols="70" required>     
+</textarea>   
+</p>
+
+<p>
+<label>
+Any other Information you want to provide -
+<br>
+<br>
+</label>
+<textarea name="additional" rows id="5" cols="90 id="additional></textarea>
+
+<p>
+<label>  
+<input type="checkbox" name="Signup" value="Yes" checked/>        
+Sign me up for email updates    
+</label>    
+<br>    
+<br>
+<input type="submit" name="submit" value="Submit"/>
+</label>   
+
+
+      </form>
+    </div>
+  </body>
+</html>
